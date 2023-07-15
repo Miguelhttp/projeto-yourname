@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  appearance: none;
+  line-height: 1;
+  border: 0;
+  outline: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html, body {
+  height: 100vh;
+  width: 100vw;
+  background-color: #182540;
+  overflow-x: hidden;
+  /* background: url('../../files/your-name.jpg') no-repeat;
+  background-size: cover;
+  background-position: center; */
+}

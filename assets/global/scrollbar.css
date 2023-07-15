@@ -1,0 +1,9 @@
+::-webkit-scrollbar {
+  background-color: #182540;
+  color: red;
+}
+
+::-webkit-scrollbar-corner {
+  background-color: #182540;
+  color: white;
+}

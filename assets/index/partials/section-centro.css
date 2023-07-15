@@ -1,0 +1,57 @@
+.section-centro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 80px;
+  border-bottom: 1px solid #60606033;
+  background-image: linear-gradient(to bottom, #182540, #2953A6);
+}
+
+.section-centro .content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  max-width: 600px;
+}
+
+.section-centro h2 {
+  color: white;
+  font-size: 2rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  margin: 20px 0;
+  z-index: 2;
+}
+
+.section-centro p {
+  color: white;
+  font-size: 1.4rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: normal;
+  text-align: justify;
+  z-index: 2;
+}
+
+.section-centro img {
+  width: 100%;
+  max-width: 450px;
+}
+
+/* Responsivo */
+@media screen and (max-width: 992px) {
+  .section-centro {
+   flex-direction: column;
+   padding: 60px 20px;
+  }
+  
+  .section-centro .content {
+    padding: 30px 0px;
+    max-width: 300px;
+  }
+  
+  .section-centro img {
+    max-width: 300px;
+  }
+}

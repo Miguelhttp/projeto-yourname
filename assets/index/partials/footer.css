@@ -1,0 +1,16 @@
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 20px 30px;
+  background-color: #182540;
+  border-top: 1px solid rgba(255, 255, 255, 0.277);
+}
+
+footer p {
+  font-size: 1rem;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  font-weight: 700;
+}
