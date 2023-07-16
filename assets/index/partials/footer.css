@@ -4,8 +4,23 @@ footer {
   justify-content: center;
   width: 100%;
   padding: 20px 30px;
-  background-color: #182540;
+  background-image: linear-gradient(to right, #2953a6, #7654BF, #182540);
+  background-image: -webkit-linear-gradient(to right, #2953a6, #7654BF, #182540);
+  background-size: 300% 300%;
   border-top: 1px solid rgba(255, 255, 255, 0.277);
+  animation: changeBackground 15s ease infinite;
+}
+
+@keyframes changeBackground {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 footer p {
